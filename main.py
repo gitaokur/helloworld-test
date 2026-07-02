@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "Hello, World! Welcome to GCP from a Container!"
+    return "Günaydın.!!!"
 
 if __name__ == "__main__":
     # Cloud Run port'u environment variable olarak verir, varsayılan 8080'dir.
